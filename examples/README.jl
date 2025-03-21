@@ -5,8 +5,6 @@
 # such as [ITensors.jl](https://itensor.github.io/ITensorDocs/ITensors/stable/)
 # and [ITensorMPS.jl](https://itensor.github.io/ITensorDocs/ITensorMPS/stable/).
 
-# TEST
-
 # ## Support
 #
 # {CCQ_LOGO}
