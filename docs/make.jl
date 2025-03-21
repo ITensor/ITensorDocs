@@ -44,7 +44,7 @@ docs = [
     name="Home",
     fix_canonical_url=false,
   ),
-  itensor_multidocref("ITensors"),
+  #itensor_multidocref("ITensors"),
   itensor_multidocref("ITensorMPS"),
 ]
 
