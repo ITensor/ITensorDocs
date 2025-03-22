@@ -12,4 +12,5 @@ benchmark/*.json
 docs/Manifest.toml
 docs/build/
 docs/clones
+docs/src/index.md
 docs/out

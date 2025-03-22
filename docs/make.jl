@@ -79,6 +79,8 @@ if "deploy" in ARGS
   for file in readdir(outpath)
     cp(joinpath(outpath, file), joinpath(gitroot, file))
   end
+  # Specify a custom domain.
+  write(joinpath(gitroot, "CNAME"), "docs.itensor.org")
   run(`git add .`)
   if success(`git commit -m 'Aggregate documentation'`)
     @info "Pushing updated documentation."
