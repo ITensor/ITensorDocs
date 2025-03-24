@@ -23,6 +23,7 @@ Documenter.makedocs(;
   sitename="ITensor ecosystem docs",
   modules=[ITensorDocs],
   warnonly=true,
+  format=Documenter.HTML(; assets=["assets/favicon.ico"]),
   pages=["index.md"],
 )
 
