@@ -60,7 +60,7 @@ MultiDocumenter.make(
   sitemap=true,
   assets_dir="docs/src/assets",
   brand_image=MultiDocumenter.BrandImage(
-    "https://itensor.org", joinpath("assets", "logo.png")
+    "https://itensor.org", joinpath("assets", "logo-dark.png")
   ),
 )
 
