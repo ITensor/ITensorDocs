@@ -7,7 +7,8 @@ and [ITensorMPS.jl](https://docs.itensor.org/ITensorMPS).
 
 ## Support
 
-<img src="docs/src/assets/CCQ.png" width="20%" alt="Flatiron Center for Computational Quantum Physics logo.">
+![Flatiron Center for Computational Quantum Physics logo.](./docs/src/assets/CCQ-dark.png#gh-dark-mode-only)
+![Flatiron Center for Computational Quantum Physics logo.](./docs/src/assets/CCQ.png#gh-light-mode-only)
 
 ITensor is supported by the Flatiron Institute, a division of the Simons Foundation.
 
