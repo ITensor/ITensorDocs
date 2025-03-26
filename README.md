@@ -8,9 +8,8 @@ and [ITensorMPS.jl](https://docs.itensor.org/ITensorMPS).
 ## Support
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="./docs/src/assets/CCQ.png">
-  <source media="(prefers-color-scheme: dark)" srcset="./docs/src/assets/CCQ-dark.png">
-  <img alt="Flatiron Center for Computational Quantum Physics logo." src="./docs/src/assets/CCQ.png">
+  <source media="(prefers-color-scheme: dark)" width="20%" srcset="./docs/src/assets/CCQ-dark.png">
+  <img alt="Flatiron Center for Computational Quantum Physics logo." width="20%" src="./docs/src/assets/CCQ.png">
 </picture>
 
 ITensor is supported by the Flatiron Institute, a division of the Simons Foundation.
