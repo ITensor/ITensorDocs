@@ -24,7 +24,13 @@ Documenter.makedocs(;
   modules=[ITensorDocs],
   warnonly=true,
   format=Documenter.HTML(; assets=["assets/favicon.ico", "assets/extras.css"]),
-  pages=["index.md"],
+  pages=[
+    "Introduction" => "index.md",
+    "Frequently Asked Questions" => [
+      "Programming Language (Julia, C++, ...) FAQs" => "faq/JuliaAndCpp.md",
+      "High-Performance Computing FAQs" => "faq/HPC.md",
+    ],
+  ],
 )
 
 function itensor_multidocref(pkgname::String; clonedir::String=clonedir)
