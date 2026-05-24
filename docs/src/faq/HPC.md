@@ -69,7 +69,7 @@ and loops of your code (highest levels of your code).
 Yes. The Julia ecosystem offers multiple approaches to parallel computing across multiple
 machines including on large HPC clusters and including GPU resources.
 
-For an overall view of some of these options, the [Julia on HPC Clusters](https://juliahpc.github.io/JuliaOnHPCClusters/) website is a good resource.
+For an overall view of some of these options, the [Julia on HPC Clusters](https://juliahpc.github.io/) website is a good resource.
 
 Some of the leading approaches to parallelism in Julia are:
 * MPI, through the [MPI.jl](https://juliaparallel.org/MPI.jl/latest/) package. Has the advantage of optionally using an MPI backend that is optimized for a particular cluster and possibly using fast interconnects like Infiniband.
@@ -81,7 +81,7 @@ Some of the leading approaches to parallelism in Julia are:
 
 The most common approach to installing and using Julia on clusters is for users to install their own Julia binary and dependencies, which is quite easy to do. However, for certain libraries like MPI.jl, there may be MPI backends that are preferred by the cluster administrator. Fortunately, it is possible for admins to set global defaults for such backends and other library preferences.
 
-For more information on best practices for installing Julia on clusters, see the [Julia on HPC Clusters](https://juliahpc.github.io/JuliaOnHPCClusters/) website.
+For more information on best practices for installing Julia on clusters, see the [Julia on HPC Clusters](https://juliahpc.github.io/) website.
 
 
 
